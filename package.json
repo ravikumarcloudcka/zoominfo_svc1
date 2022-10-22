@@ -1,0 +1,11 @@
+{
+  "name": "Zoominfo",
+  "version": "1.0.0",
+  "description": "ECS Fargate Service 1",
+  "main": "service1.js",
+  "author": "GeeksForGeeks",
+  "dependencies": {
+    "express": "^4.18",
+    "node-fetch": "^2.6.6"
+  }
+}
