@@ -8,7 +8,7 @@ COPY package*.json ./
 
 RUN npm install
 
-# Bundle app source
+# Bundle app sources
 COPY service1.js .
 
 EXPOSE 8080
