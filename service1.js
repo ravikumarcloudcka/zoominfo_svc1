@@ -4,7 +4,7 @@ const fetch = require("node-fetch");
 
 app.get('/', (req, res) => {
 	(async () => {
-    		const response = await fetch('http://service2.zoominfo.test');
+    		const response = await fetch('http://service2:9090');
     		const body = await response.text();
     	        res.send(body);
 	})();
